@@ -1,0 +1,43 @@
+name: bill_uploader
+description: 小狙的账单助手 - 自动上传微信/支付宝账单
+publish_to: 'none'
+version: 1.0.2+3
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+
+  # 网络请求
+  http: ^1.2.0
+  dio: ^5.4.3
+
+  # 文件操作
+  file_picker: ^8.1.4
+  path_provider: ^2.1.4
+
+  # 本地存储
+  shared_preferences: ^2.3.2
+
+  # 状态管理
+  provider: ^6.1.2
+
+  # 图表
+  fl_chart: ^0.69.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # 应用图标
+  # assets:
+  #   - assets/images/

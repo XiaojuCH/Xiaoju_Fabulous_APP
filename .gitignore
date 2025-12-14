@@ -1,0 +1,95 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Additional ignores for this project
+# APK files (compiled apps)
+*.apk
+*.aab
+*.ipa
+
+# Sensitive files (API keys, configs)
+# Uncomment if you have sensitive config files
+config.json
+.env
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Test reports
+test-results/
+*.test
+
+# Firebase (if used)
+.firebase/
+firebase-debug.log
+firestore-debug.log
+
+# FVM (Flutter Version Management)
+.fvm/
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+
+# Large media files (optional - uncomment if needed)
+# *.mp4
+# *.mov
+# *.avi
+# *.zip
+# *.tar.gz
